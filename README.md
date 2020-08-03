@@ -29,14 +29,16 @@ August 7, 2020 6-9pm PST
 ## Part II: Intro to Tone.js
 - Brief summary of Tone.js origins
 - Basic synthesis examples - ADSR explained, `triggerAttack, triggerRelease, triggerAttackRelease`
+- Transport, basic oscillator and synths (won't be covering effects e.g., [PingPongDelay](https://tonejs.github.io/docs/14.7.39/PingPongDelay) but you can see a list of them in the documentation)
 - Using the mic
 - Using samples
 
 
+
 ***
 ## Part III: Tone.js + p5.js
-- Visualization examples
-- FFT
+- Incorporating sound into existing p5 sketches
+- Looking at audio data via Waveform and FFT
 
 ***
 ## Resources + References + More examples!
