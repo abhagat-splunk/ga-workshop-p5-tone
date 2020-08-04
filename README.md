@@ -2,6 +2,8 @@
 Audio Visualization with [p5.js](https://p5js.org/) + [Tone.js](https://tonejs.github.io/)
 August 7, 2020 6-9pm PST
 
+[Link to slides](https://docs.google.com/presentation/d/1xpjRurNecQmTOZmDElrU26k5N3-maBcoV3L0A4GFDHg/edit?usp=sharing)
+
 ***
 
 ## Part I: Setup & Intros, Getting Started with p5.js
