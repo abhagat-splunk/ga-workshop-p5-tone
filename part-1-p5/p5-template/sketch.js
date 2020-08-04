@@ -1,4 +1,4 @@
-// p5_template
+// p5-template
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
