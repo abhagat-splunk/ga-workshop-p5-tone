@@ -5,6 +5,7 @@ let colorPicker;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  background(21);
 
   // setup slider
   slider = createSlider(0, 100, 20);
@@ -20,6 +21,12 @@ function draw() {
   noStroke();
   fill(0);
   rect(0, 0, width, 80);
+
+  fill(255);
+  textSize(12);
+  text('brush size (' + slider.value() + ')', 40, 30);
+  text('color', 200, 30);
+  text('press any key to clear', 600, 45);
 }
 
 function mouseDragged() {
@@ -28,5 +35,5 @@ function mouseDragged() {
 }
 
 function keyPressed() {
-  background(255);
+  background(21);
 }
