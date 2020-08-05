@@ -1,9 +1,4 @@
 // p5-basic-interactivity
-
-
-
-
-
 let diameter;
 let r, g, b;
 
