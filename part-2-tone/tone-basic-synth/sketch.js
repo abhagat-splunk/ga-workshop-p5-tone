@@ -17,3 +17,8 @@ function mousePressed() {
   ellipse(mouseX, mouseY, 20, 20);
   synth.triggerAttackRelease("C4", "8n");
 }
+
+
+
+
+
