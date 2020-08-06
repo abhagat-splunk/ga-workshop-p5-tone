@@ -36,8 +36,3 @@ function mousePressed() {
 
   isOn = !isOn;
 }
-
-
-
-
-
