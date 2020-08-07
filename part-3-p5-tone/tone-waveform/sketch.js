@@ -1,8 +1,9 @@
-// tone-synth-keys
+// tone-waveform
 
 let synth;
 let bgCol;
 let size;
+let waveform;
 
 const AMinorScale = ['A3', 'B3', 'C4', 'D4', 'E4', 'F4', 'G4'];
 
@@ -15,7 +16,7 @@ function setup() {
   
   // power of 32, in the range [32, 32768]
   size = 1024;
-  
+
   synth = new Tone.Synth();
   waveform = new Tone.Waveform(size).toDestination();
   synth.connect(waveform);

@@ -6,7 +6,7 @@ August 7, 2020 6-9pm PST
 
 ***
 
-## Part I: Setup & Intros, Getting Started with p5.js
+## Setup 
 - Quick Intros, workshop agenda
 - Setup (5 min!) 
   - Download code, open in editor of choice (I'm using VSCode, but have also tried [Atom](https://atom.io/) and [Sublime Text](https://www.sublimetext.com/). Both are good options!)
@@ -16,34 +16,6 @@ August 7, 2020 6-9pm PST
 
     - See this [documentation](https://github.com/processing/p5.js/wiki/Local-server) for more information.
 
-- p5.js Overview
-  - Brief summary of p5.js origins
-  - [Getting started documentation, if you are new to p5.js](https://p5js.org/get-started/)
-  - `setup()` and `draw()`
-  - Basic interactivity: 
-    - `mouseX, mouseY, mousePressed(), mouseClicked(), mouseOver()`
-    - `keyCode, keyPressed(), keyReleased()`
-  -  Working with [p5.sound](https://p5js.org/reference/#/libraries/p5.sound)
-      - [p5.amplitude](https://p5js.org/reference/#/p5.Amplitude)
-
-
-***
-## Part II: Intro to Tone.js
-- Brief summary of Tone.js origins
-- Basic synthesis examples - ADSR explained, `triggerAttack, triggerRelease, triggerAttackRelease`
-- Transport, basic oscillator and synths (won't be covering effects e.g., [PingPongDelay](https://tonejs.github.io/docs/14.7.39/PingPongDelay) but you can see a list of them in the documentation)
-- Using the mic
-- Using samples
-
-
-
-***
-## Part III: Tone.js + p5.js
-- Incorporating sound into existing p5 sketches
-- Looking at audio data via Waveform and FFT
-
-***
-## Resources + References + More examples!
-https://github.com/therewasaguy/p5-music-viz
-
-
+- Intro to p5.js
+- Intro to Tone.js + audio concepts
+- Intro to audio visualization with p5 + tone
