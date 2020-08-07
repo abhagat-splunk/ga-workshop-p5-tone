@@ -24,3 +24,7 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
+a, a:visited, a:active {
+  color: black;
+}
