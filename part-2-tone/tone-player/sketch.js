@@ -33,7 +33,7 @@ function keyPressed() {
       isPlaying = !isPlaying;
       player.stop();
     } else {
-      // we weren't already playing, so we'll start
+      // we weren't playing, so we'll start
       isPlaying = !isPlaying;
       player.start();
     }
