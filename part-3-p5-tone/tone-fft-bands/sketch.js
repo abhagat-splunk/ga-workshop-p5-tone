@@ -13,7 +13,7 @@ function setup() {
   background(0);
 
   // setup text
-  textSize(32);
+  textSize(28);
   textAlign(CENTER, CENTER);
 
   analyser = new AudioEnergy();
@@ -46,11 +46,12 @@ function draw() {
     if (isPlaying) {
       const diameter = width * 0.2;
       const freqRanges = [
-        { name: 'bass', color: 'pink' },
-        { name: 'lowMid', color: 'orange' },
-        { name: 'mid', color: 'yellow' },
-        { name: 'highMid', color: 'cyan' },
-        { name: "treble", color: "tomato" }
+        
+        { name: 'bass', color: '#355C7D' },
+        { name: 'lowMid', color: '#6C5B7B' },
+        { name: 'mid', color: '#C06C84' },
+        { name: 'highMid', color: '#F67280' },
+        { name: 'treble', color: '#F8B195' }
       ];
 
       for (let i = 0; i < freqRanges.length; i++) {
@@ -64,7 +65,7 @@ function draw() {
         const finalDiameter = diameter + scale * diameter
         ellipse(i * (width * 0.2) + diameter/2, height/2, finalDiameter, finalDiameter);
 
-        fill(0);
+        fill(21, 21, 21);
         text(name, i * (width * 0.2) + diameter/2, height/2);
       }
     }
