@@ -19,3 +19,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
