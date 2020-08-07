@@ -20,7 +20,3 @@ function draw() {
   fill(0, 255, 255);
   text(key, width/2, height/2);
 }
-
-
-
-
